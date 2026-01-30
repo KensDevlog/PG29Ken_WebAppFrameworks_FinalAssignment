@@ -1,5 +1,10 @@
 # VUE A1
 
+## Run Instructions
+- open the command line in the private folder and execute the command 'npm run dev'
+- open command line in the public folder and execute the command 'npm run dev'
+- ctrl click the link provided in the command line of the public folder
+
 ## Screens Added
 - Leaderboard Screen (LeaderboardTable component, LightDarkToggle component, FunnyButton component)
 - Contact Screen (ContactWidget component)
