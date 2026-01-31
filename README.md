@@ -1,8 +1,11 @@
 # VUE A1
 
 ## Run Instructions
-- open the command line in the private folder and execute the command 'npm run dev'
-- open command line in the public folder and execute the command 'npm run dev'
+- run npm install in the main directory
+- run npm install in the frontend directory
+- run npm install in the backend directory
+- open the command line in the backend folder and execute the command 'npm run dev'
+- open command line in the frontend folder and execute the command 'npm run dev'
 - ctrl click the link provided in the command line of the public folder
 
 ## Screens Added
