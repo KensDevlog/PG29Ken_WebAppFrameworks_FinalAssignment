@@ -6,7 +6,7 @@
 - open the command line in the backend folder and execute the command 'npm install'
 - open the command line in the backend folder and execute the command 'npm run dev'
 - open command line in the frontend folder and execute the command 'npm run dev'
-- ctrl click the link provided in the command line of the public folder
+- ctrl click the local host link in the frontend command line to open the project
 
 ## Screens Added
 - Leaderboard Screen (LeaderboardTable component, LightDarkToggle component, FunnyButton component)
