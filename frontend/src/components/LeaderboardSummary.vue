@@ -36,7 +36,7 @@
 
     const fetchLeaderboardData = async () => {
         try {
-            const response = await fetch(`http://localhost:3000/api/leaderboard-summary`);
+            const response = await fetch("/api/leaderboard-summary");
 
             if (!response.ok) throw new Error(`Server error ${response.status}`);
 
