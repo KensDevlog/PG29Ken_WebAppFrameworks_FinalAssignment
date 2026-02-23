@@ -1,7 +1,7 @@
 <template>
     <div class="about-page">
-        <h1>This game is about...</h1>
-        <p>something</p>
+        <h1>Hey Spencer</h1>
+        <p>I thought about making it look pretty and gave up after the login page</p>
 
         <!--Widgets :^)-->
     </div>

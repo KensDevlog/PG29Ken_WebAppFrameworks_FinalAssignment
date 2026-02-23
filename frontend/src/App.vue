@@ -9,6 +9,7 @@
                 <router-link to="/About">About</router-link>
                 <router-link to="/Leaderboard">Leaderboard</router-link>
                 <router-link to="/Contact">Contact</router-link>
+                <router-link to="/Login">Login</router-link>
             </nav>
         </header>
         <main>

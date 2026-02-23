@@ -2,6 +2,8 @@ import express, { type Request, type Response } from "express";
 import cors from "cors";
 import mysql from "mysql2/promise";
 import dotenv from "dotenv";
+import { connectDb } from "./mongodb";
+import contactInquiriesRouter from "./src/routes/contactInquiries";
 dotenv.config();
 
 type LeaderboardItem = {
@@ -41,6 +43,9 @@ app.get("/api/leaderboard", async (req: Request, res: Response) => {
     res.json(rows as LeaderboardItem[]);
 });
 
-app.listen(PORT, () => {
+app.use("/api/contact", contactInquiriesRouter);
+
+app.listen(PORT, async () => {
     console.log(`Backend server is running at http://localhost:${PORT}`);
+    await connectDb(process.env.MONGO_URI ?? "mongodb://localhost:27017/a1app");
 });
